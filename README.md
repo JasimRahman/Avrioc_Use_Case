@@ -11,13 +11,12 @@ Visualize Results: Display the aggregated data on a simple dashboard.
 Steps to Execute the Project
 1. Clone the Repository
 Download the project files to your computer:
-bash
+
 git clone https://github.com/JasimRahman/real_time_pipeline.git
 cd real_time_pipeline
---
+
 2. Install Required Packages
 Install the necessary Python libraries:
-bash
 pip install -r requirements.txt
 
 3. Set Up Kafka and MongoDB
@@ -51,14 +50,11 @@ For the dashboard, install and use Streamlit to run the dashboard script.
 Example Commands for Kafka and MongoDB:-
 
 Start Kafka:
-bash
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 
 Create Kafka Topic:
-bash
 bin/kafka-topics.sh --create --topic interaction_data --bootstrap-server localhost:9092
 
 Start MongoDB:
-bash
 mongod
