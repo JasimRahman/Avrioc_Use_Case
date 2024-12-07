@@ -1,0 +1,26 @@
+# Kafka-related libraries
+kafka-python==2.0.2    
+
+# Data manipulation and processing
+pandas==1.5.3           
+numpy==1.23.5           
+
+# NoSQL database libraries
+pymongo==4.3.3          
+elasticsearch==8.10.0   
+
+# Visualization libraries
+matplotlib==3.6.2       
+plotly==5.14.0         
+dash==2.10.0           
+
+# Other useful libraries for development
+requests==2.28.2        
+python-dotenv==0.21.1   
+Flask==2.2.2           
+
+# Testing libraries
+pytest==7.4.0        
+
+# Optional libraries (for advanced features)
+kafka-logger==0.1.2
